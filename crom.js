@@ -9,7 +9,7 @@ var cron;
 
 function start(){
 
-    
+   cron= setInterval(timer, tempo);
 }
 
 function pause(){
@@ -18,4 +18,8 @@ function pause(){
 
 function stop(){
 
+}
+
+function timer (){
+    document.getElementById('counter').innerText = 'teste';
 }
