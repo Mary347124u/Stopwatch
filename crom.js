@@ -9,7 +9,7 @@ var cron;
 
 function start(){
 
-   cron= setInterval(timer, tempo);
+   cron= setInterval(()=>{ timer();}, tempo);
 }
 
 function pause(){
