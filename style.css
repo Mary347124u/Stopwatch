@@ -19,6 +19,7 @@ body{
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
 }
 
 button{
@@ -28,7 +29,7 @@ button{
     font-size: 1.1em;
     transition: all .5s;
     cursor: pointer;
-    border-radius: 25px;
+    text-align: center;
 }
 button:hover{
     background-color: violet;
