@@ -15,13 +15,18 @@ body{
     background-color: whitesmoke;
     box-shadow: 0 0 5px white;
     text-align: center;
+    box-shadow: 25px 25px 50px -30px palevioletred;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 5px;
 }
-
+#title{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin-top: 30px;
+}
 button{
     padding: 10px;
     border: none;
