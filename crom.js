@@ -13,13 +13,18 @@ function start(){
 }
 
 function pause(){
-
+    clearInterval(cron);
 }
 
 function stop(){
-
+    clearInterval(cron);
+    hr = 0;
+    mn = 0;
+    ss = 0;
 }
 
 function timer (){
+    
     document.getElementById('counter').innerText = 'teste';
+
 }

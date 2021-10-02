@@ -20,6 +20,9 @@ body{
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-linear-gradient(rgb(135, 209, 231), #FFB6C1, #FDFD96);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     margin-top: 5px;
 }
 #title{
@@ -37,16 +40,16 @@ button{
     text-align: center;
 }
 button:hover{
-    background-color: violet;
+    background-color: #E9fdfd;
 }
 .bg-pink{
-    background-color: palevioletred;
+    background-color: #ADD8E6;
 }
 .bg-purple{
-    background-color: purple;
+    background-color: #FFB6C1;
 }
 .bg-aqua{
-    background-color: aquamarine;
+    background-color: #FDFD96;
 }
 
 
